@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <title>Exercicio Bootstrap</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light border-bottom p-0">
+        <div class="container">
+          <a class="navbar-brand" href="#">OrionWeb</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link p-3" aria-current="page"
+                  ><i class="bi bi-house-fill"></i>Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle p-3"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-inbox-fill"></i>
+                  Secretaria
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <a href="#" class="dropdown-item">Consultar Online</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle p-3"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-person-fill"></i>
+                  Luiz Miguel Haiduke
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <a href="#" class="dropdown-item">
+                      <i class="bi bi-list-ul"></i>
+                      Cadastrar
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">
+                      <i class="bi bi-lock-fill"></i>
+                      Alterar Senha
+                    </a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider bg-light" />
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">
+                      <i class="bi bi-caret-up-fill"></i>
+                      Sair
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
